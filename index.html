@@ -62,6 +62,7 @@
             var col=e.data.color;
             var {r,g,b,a}=col;
             color.value=rgb2hex(Math.round(r*255),Math.round(g*255),Math.round(b*255));
+            display.innerText = "R: " + r.toFixed(2) + " G: " + g.toFixed(2) + " B: " + b.toFixed(2);
           }
         });
     </script>
